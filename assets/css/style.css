@@ -19,4 +19,5 @@
 
 .custom-checkbox input[type="checkbox"]:checked + label::before{
     background-color: red;
+   
 }
