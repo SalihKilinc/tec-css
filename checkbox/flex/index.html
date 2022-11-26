@@ -6,8 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .container{
+            display: flex;
+           /* flex-direction: row-reverse;  Saga yaslar en buyukten kucuge siralar  */ 
+          /* flex-direction: column-reverse;  asgi dogru yon verir ve buyukten kucuge siralar */
+          flex-direction: row; /* default degeri*/
+          justify-content:space-evenly;
+          /*
+          justify-content: space-between;
+          justify-content: flex-start;
+          justify-content: end;*/
+
+          align-items: center;
+          height: 100vh;
+         
+
+        }
 .container div{
     padding: 3rem;
+    
 }
 .container div:nth-child(1){
     background-color: aqua;
