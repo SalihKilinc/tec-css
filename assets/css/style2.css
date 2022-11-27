@@ -2,18 +2,25 @@ header{
     background-color: aqua;
     display: flex;
     justify-content: space-between;
-    padding:2rem;}
+    padding:32px;
+}
     
 section.content{
     display: flex;
+    min-height: 55vh;
 }
 
 main{
     background-color: yellow;
+    flex: 3;
+    padding: 32px;
+    display: inline-flex;
+    gap: 32px;
 }
 footer{
     background-color: bisque;
 }
 aside{
     background-color: brown;
+    flex: 2;
 }
