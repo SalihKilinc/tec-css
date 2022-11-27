@@ -3,24 +3,45 @@ header{
     display: flex;
     justify-content: space-between;
     padding:32px;
+    flex-wrap: wrap;
 }
     
 section.content{
     display: flex;
     min-height: 55vh;
+    flex-wrap: wrap;
+}
+main .image{
+    flex: 1 1 200px;
+}
+main .about{
+    flex: 6 1 400px;
 }
 
 main{
     background-color: yellow;
-    flex: 3;
+    flex: 3 1 500px;
     padding: 32px;
     display: inline-flex;
     gap: 32px;
+    flex-wrap: wrap;
 }
 footer{
     background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px;
+    color: rgb(61, 66, 134);
 }
 aside{
+
     background-color: brown;
-    flex: 2;
+    flex: 2 1 300px;
+    padding: 16px;
+    flex-wrap: wrap;
+}
+aside .kutu{
+    background-color: aqua;
+    padding: 8px;
+    margin-bottom: 16px;
 }
