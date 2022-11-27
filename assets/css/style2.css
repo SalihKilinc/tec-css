@@ -1,0 +1,19 @@
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding:2rem;}
+    
+section.content{
+    display: flex;
+}
+
+main{
+    background-color: yellow;
+}
+footer{
+    background-color: bisque;
+}
+aside{
+    background-color: brown;
+}

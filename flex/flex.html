@@ -7,11 +7,12 @@
     <title>Document</title>
     <style>
         .container{
+         
             display: flex;
            /* flex-direction: row-reverse;  Saga yaslar en buyukten kucuge siralar  */ 
           /* flex-direction: column-reverse;  asgi dogru yon verir ve buyukten kucuge siralar */
           flex-direction: row; /* default degeri*/
-          justify-content:center;
+          justify-content:flex-start;
           /*
           justify-content: space-between;
           justify-content: flex-start;
@@ -22,11 +23,13 @@
           align-items: flex-start;
           gap: 2rem;  /*esit bitr sekilde aralara bosluk verir*/
           
-         
+         height: 100vh;
 
         }
 .container div{
     padding: 3rem;
+    border-radius: 20px;
+
     
 }
 .container div:nth-child(1){
