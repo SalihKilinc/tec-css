@@ -1,0 +1,9 @@
+:root{
+    --color1:blue;
+    --color2:yellow;
+
+}
+.button-group{
+    display: flex;
+    gap:3px;
+}
