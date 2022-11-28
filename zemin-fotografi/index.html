@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner {
+            background-image: url(../assets/img/bg.jpg);
+            background-repeat: no-repeat;
+            /* resmi normal boyutta tutar */
+            background-position: center bottom;
+            /*background-repeat:no-repeat; kullanildiktan sonra kullanilir*/
+            height: 50vh;
+            opacity: 0.8;
+            /* arka plana matlik verir
+             */
+            background-size: 100px 100px;
+           
+            /* resmin boyutunu kuculttuk ne repeat ozelligi kalkarsa sayfa tamamen kaplanir ama resmin desenleri cok kucuk olur */
+
+        }
+        .slider{
+            background-image: url(../assets/img/nature.jpg);
+            min-height: 30vh;
+            background-size: contain; /*resmi getirdik bununla resmin boyutu cok buyuktu bununla onune gectik*/
+            background-repeat: no-repeat; /*resim tekrarini kaldirdik*/
+           
+            background-position: center center; /*resmi ortaladik*/
+           
+        }
+        .slider1{
+            background-size: contain;
+            
+        }
+        .slider2{
+            background-size: cover; /* resim ekrani tamamen kaplar*/
+            background-position: center center;
+            
+        }
+        .slider3{
+            background-attachment: fixed;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, vitae.
+    </div>
+    <div class="slider slider1"></div>
+    <div class="slider slider2"></div>
+    <div class="slider slider3"></div>
+    <div class="banner">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat odio aliquam explicabo, vero qui officiis
+            numquam quasi cumque dolorem, commodi, soluta vitae error laudantium corporis delectus modi nam mollitia
+            unde consectetur totam molestias sed? Nobis quia molestiae ea qui maxime quod fugiat error corrupti ipsa!
+        </p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur officiis facilis
+        consectetur dolor fugiat, praesentium vel voluptatibus quos sit odit, modi quod hic libero voluptatem culpa
+        dolore adipisci quis, id eum minima quisquam. Impedit accusantium numquam repellat facere quasi id corporis
+        nostrum similique! Ipsum.
+    </div>
+    <div class="box1">BOX 1</div>
+    <div class="box2">BOX 2</div>
+</body>
+
+</html>
