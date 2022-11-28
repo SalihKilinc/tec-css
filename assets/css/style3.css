@@ -5,13 +5,14 @@
 }
 .button-group{
     display: flex;
+  flex-direction:row-reverse;
     gap:3px;
 }
 .button-group button{
     background-color: var(--color2);
     color: var(--color1);
     border: 5px solid var(--color1);
-    padding:  16px;
+    padding:  10rem;
     border-radius: 20px;
     cursor: pointer;
     flex: 0 0 100px ;
