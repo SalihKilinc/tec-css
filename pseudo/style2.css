@@ -8,18 +8,22 @@ nav.menu ul{
    text-align: center;
 }
 nav.menu li{
-    display: inline-flex;
+    display: inline-block;
 }
 nav.menu a{
     padding: 0.5rem 1rem;
-    display: inline-flex;
-   text-decoration: wavy;
+    display: inline-block;
+   text-decoration: none;
 }
 nav.menu li::after{
     content: "|";
     margin-top: 7px;
     color: rgb(74, 83, 60);
 }
-nav.menu li.sam::after{
-content: "";
+nav.menu li:last-child:after{
+content: "◀️";
 }
+
+nav.menu li:first-child::before{
+    content: "▶️";
+    }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu li {
+            color: rgb(129, 241, 55);
+        }
+
+        .menu>ul>li {
+            color: rgb(194, 175, 211);
+        }
+
+        .menu+article { /*menuden sonraki ilk articl alinir */
+           color: rgb(101, 168, 74);
+
+        }
+
+        .menu~span {  /* menuden sonraki spanlari alir dikkat kendi seviyesinde olanlari */
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Lundi</a></li>
+            <li><a href="#">Mardi</a></li>
+            <li><a href="#">Mercredi</a>
+                <ul>
+                    <li>Sunday</li>
+                    <li>Monday</li>
+                    <li>Thursday</li>
+                </ul>
+            </li>
+            <li><a href="#">Jeudi</a></li>
+            <li><a href="#">Vendredi</a></li>
+            <li><a href="#">Samedi</a></li>
+        </ul>
+    </nav>
+    <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quas similique molestias. Accusamus,
+        quisquam. Impedit dolorum natus temporibus ducimus quaerat porro maiores vel iure non, id rerum fuga asperiores
+        incidunt atque adipisci quasi laboriosam illum mollitia totam repudiandae! Voluptate alias itaque modi ullam
+        quibusdam vitae ex cupiditate autem corrupti consequatur.</article>
+    <article>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quas similique molestias. Accusamus,
+        quisquam. Impedit dolorum natus temporibus ducimus quaerat porro maiores vel iure non, id rerum fuga asperiores
+        incidunt atque adipisci quasi laboriosam illum mollitia totam repudiandae! Voluptate alias itaque modi ullam
+        quibusdam vitae ex cupiditate autem corrupti consequatur.</article>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, aperiam? Praesentium pariatur est distinctio
+        quaerat odio qui velit non dignissimos! Sapiente quam accusantium sequi necessitatibus adipisci earum, sed
+        voluptatem deleniti natus quaerat dolorum laboriosam expedita ratione suscipit delectus quia ut quidem odit in
+        aut debitis esse cumque accusamus dolores. Magni omnis, aut vitae accusamus consequatur neque aspernatur
+        blanditiis. Sapiente harum voluptatibus voluptates minima recusandae, nemo animi quae ipsum reprehenderit
+        laboriosam aperiam, asperiores tempora quod quia in iste nostrum dolor perspiciatis quidem accusantium numquam
+        saepe doloribus? Fugiat tempore enim non perferendis, ipsa quaerat explicabo vero perspiciatis voluptas autem
+        quis aliquid.</span>
+</body>
+
+</html>

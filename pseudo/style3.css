@@ -1,0 +1,24 @@
+.btn-click:hover + .content{
+    background-color: rgb(39, 71, 71);
+    color: rgb(153, 153, 179);
+
+}
+.chk-clic:checked + .content{
+    background-color: aqua;
+    color: cornflowerblue;
+}
+.chk-clic{
+    display: none;
+}
+.lbl-clic{
+    background-color: brown;
+    padding: 0.3rem 1rem;
+    display: inline-block;
+   
+    
+}
+.lbl-clic:hover{
+    background-color: rgb(139, 212, 21);
+   cursor: pointer;
+    
+}
