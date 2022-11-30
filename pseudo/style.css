@@ -15,3 +15,9 @@ ul li::marker{
     color: rgb(184, 185, 83);  /* marker ile noktalari buyuttuk */
     font-size: 5rem;
 }
+.pano span::after{
+   content: "😶‍🌫️";
+}
+.pano span::before{
+    content: "😶‍🌫️";
+ }

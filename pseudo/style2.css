@@ -1,0 +1,25 @@
+nav.menu{
+    background-color: rgb(178, 211, 211);
+}
+nav.menu ul{
+    margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-align: center;
+}
+nav.menu li{
+    display: inline-flex;
+}
+nav.menu a{
+    padding: 0.5rem 1rem;
+    display: inline-flex;
+   text-decoration: wavy;
+}
+nav.menu li::after{
+    content: "|";
+    margin-top: 7px;
+    color: rgb(74, 83, 60);
+}
+nav.menu li.sam::after{
+content: "";
+}
