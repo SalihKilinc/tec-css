@@ -1,0 +1,17 @@
+.pano::first-letter{
+    font-size:  35px;
+
+}
+.pano::first-line{
+    color: rgb(113, 87, 206);
+}
+.pano::selection{
+    color: rgb(82, 201, 14);  /*fare ile secilen yazinin rengi degisir*/
+}
+ul li{
+    color: rgb(59, 61, 155);
+}
+ul li::marker{
+    color: rgb(184, 185, 83);  /* marker ile noktalari buyuttuk */
+    font-size: 5rem;
+}
