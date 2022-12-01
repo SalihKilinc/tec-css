@@ -7,7 +7,7 @@
     border: 1px solid blue;
     border-radius: 8px;
     padding: 0.5rem 2rem 0.5rem 1rem;
-    box-shadow: 10px 10px 9px  rgb(66, 66, 34);
+   /* box-shadow: 10px 10px 9px  rgb(66, 66, 34);*/
 
 }
 
@@ -21,4 +21,36 @@
     right: 10px;
     font-size: 1.3rem;
     top: 5px;
+}
+.input-group2{
+    display: inline-block;
+    position: relative;
+   
+}
+.input-group2 input{
+    padding: 0.5rem 5rem 0.5rem 1rem;
+  border-radius: 5rem;
+border: 1px solid green;
+    
+}
+
+.input-group2 input:focus{
+    outline: 1px solid rgb(42, 29, 223);
+    border: 1px solid rgb(156, 17, 199);
+ 
+}
+.input-group2 button{
+    position:absolute;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   border-radius: 5rem;
+   border: 1px solid green;
+   padding: 0.1rem;
+   cursor: pointer;
+   background-image: linear-gradient(to bottom, rgb(110, 84, 84) , rgb(207, 212, 186));
+   color: rgb(8, 36, 36);
+}
+.input-group2 button:hover{
+    background-image: linear-gradient(to top, rgb(110, 84, 84) , rgb(207, 212, 186));
 }
