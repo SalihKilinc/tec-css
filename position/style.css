@@ -1,0 +1,24 @@
+.input-group{
+    display: inline-block;
+  
+    position: relative;
+}
+.input-group input{
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    box-shadow: 10px 10px 9px  rgb(66, 66, 34);
+
+}
+
+.input-group input:focus{
+    outline: 1px solid red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.input-group i{
+    position: absolute;
+    right: 10px;
+    font-size: 1.3rem;
+    top: 5px;
+}
